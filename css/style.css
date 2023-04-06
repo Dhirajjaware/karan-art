@@ -1,0 +1,46 @@
+.navbar {
+  background-color: #c8b6a6;
+}
+.navbar-nav {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.navbar-brand {
+  color: #fff;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.k {
+  font-size: 1.5rem;
+  color: rgb(225, 10, 10);
+  text-decoration: solid overline;
+}
+
+main {
+  /* padding: 1rem; */
+  background-color: #000;
+}
+
+.row img {
+  width: 100%;
+  border: 3px inset white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.row div {
+  padding: 2rem;
+}
+.transform-img {
+  transform: translateY(-50px);
+}
+.row img:hover {
+transform: translateY(-10px);
+}
+
+.row p {
+    text-align: center;
+    font-weight: 700;
+}
